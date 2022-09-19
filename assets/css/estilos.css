@@ -170,7 +170,7 @@ body{
     height: 100vh;
 }
 
-.ejercicio-2-form{
+.ejercicio-form{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -178,7 +178,11 @@ body{
     width: 500px;
 }
 
-.ejercicio-2-form input{
+.ejercicio-form h1{
+    margin: 1rem 0rem;
+}
+
+.ejercicio-form input{
     outline: none;
     border: 1px solid gray;
     border-radius: 5px;
@@ -186,7 +190,7 @@ body{
     margin: 0.5rem 0rem;
 }
 
-.ejercicio-2-form select{
+.ejercicio-form select{
     outline: none;
     border: 1px solid gray;
     border-radius: 5px;
@@ -194,7 +198,8 @@ body{
     margin: 1rem 0rem;
 }
 
-.ejercicio-2-form button{
+.ejercicio-form button{
+    font-size: 14px;
     outline: none;
     border: none;
     border-radius: 5px;
