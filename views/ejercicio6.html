@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="https://diegoboscan.com/static/738155fe5ef8b31a8de213cbd0295fc8/743e0/js-1.png" alt="">
+        <div class="menu-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="">Ejercicio 1</a>
+            <a href="">Ejercicio 2</a>
+            <a href="">Ejercicio 3</a>
+            <a href="">Ejercicio 4</a>
+            <a href="">Ejercicio 5</a>
+            <a href="">Ejercicio 6</a>
+        </div>
+    </nav>
+    <div class="ejercicio-content">
+        <form id="form-usuario" class="ejercicio-form" action="" method="post">
+            <h1>Ejercicio 6</h1>
+            <select name="tipodoc" class="g-tipodoc" id="">
+                <option value="">Tipo de Documento</option>
+                <option value="">Cédula de Ciudadanía</option>
+                <option value="">Tarjeta de Identidad</option>
+            </select>
+            <input type="text" class="g-documento" name="documento" placeholder="Número de Documento">
+            <input type="text" class="g-nombre" name="nombre" placeholder="Nombre">
+            <input type="text" class="g-apellido" name="apellido" placeholder="Apellido">
+            <label for="">Fecha de Nacimiento</label>
+            <input type="date" class="g-nacimiento" max="2002-01-01">
+            <input type="text" class="g-correo" name="correo" placeholder="Correo electrónico">
+            <input type="password" class="g-password" name="password" placeholder="Contraseña">
+            <input type="password" class="g-password2" name="password2" placeholder="Confirmar contraseña">
+            <a href="#terminos1" class="terms"><input type="checkbox" class="g-terminos" name="terminos" id="terminos">Acepto Términos de uso</a>
+            <button type="submit" class="btn">Enviar</button>
+            <p class="form-no-enviado">Hay campos incompletos o incorrectos</p>
+        </form>
+    </div>
+    <div id="terminos1" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="modal-form">
+                <h2>Términos de uso</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum perspiciatis ipsam, dolor itaque optio corporis assumenda placeat sed hic architecto corrupti ea debitis laborum, saepe culpa impedit dignissimos consequuntur quae quibusdam voluptatum. Laborum molestias pariatur dolores architecto soluta molestiae possimus odio maxime harum nam nisi ab consequatur quasi iste quia, sequi reprehenderit iusto temporibus? Incidunt, quis dolores. Voluptatem nobis enim hic non iure nemo, dolore ab recusandae laboriosam quisquam aperiam, inventore quam repellat sequi magni! Quia dolor exercitationem id dolorum maiores et eligendi fuga voluptatum necessitatibus possimus, nam libero temporibus eaque ab quaerat eveniet ipsa magni iusto provident sunt delectus.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Miguel Angel Wilchez Carvajal | 2465880</p>
+        <p>&copy Todo los derechos reservados</p>
+    </footer>
+    <script src="../assets/js/ejercicio6.js"></script>
+</body>
+</html>

@@ -355,6 +355,27 @@ body{
     color:#222;
 }
 
+.terms{
+    color: black;
+    text-decoration: none;
+}
+
+.success{
+    border: 1px solid green;
+}
+
+.error{
+    border: 1px solid red;
+}
+
+.form-no-enviado{
+    visibility: hidden;
+}
+
+.activo{
+    visibility: visible;
+}
+
 footer{
     display: flex;
     flex-direction: column;
