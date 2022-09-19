@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="https://diegoboscan.com/static/738155fe5ef8b31a8de213cbd0295fc8/743e0/js-1.png" alt="">
+        <div class="menu-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="">Ejercicio 1</a>
+            <a href="">Ejercicio 2</a>
+            <a href="">Ejercicio 3</a>
+            <a href="">Ejercicio 4</a>
+            <a href="">Ejercicio 5</a>
+            <a href="">Ejercicio 6</a>
+        </div>
+    </nav>
+    <div class="ejercicio-content">
+        <div class="card-container-5">
+            <div class="card w-250">
+                <img src="../assets/img/triangulo.png" class="bg-shadow" alt="">
+                <a href="#triangulo-p"><button>Perímetro</button></a>
+                <a href="#triangulo-a"><button>Área</button></a>
+            </div>
+            <div class="card w-250">
+                <img src="../assets/img/circulo.png" class="bg-shadow" alt="">
+                <a href="#circulo-p"><button>Perímetro</button></a>
+                <a href="#circulo-a"><button>Área</button></a>
+            </div>
+            <div class="card w-250">
+                <img src="../assets/img/rectangulo.png" id="rectangulo" class="bg-shadow" alt="">
+                <a href="#rectangulo-p"><button>Perímetro</button></a>
+                <a href="#rectangulo-a"><button>Área</button></a>
+            </div>
+            <div class="card w-250">
+                <img src="../assets/img/cuadrado.png" class="bg-shadow" alt="">
+                <a href="#cuadrado-p"><button>Perímetro</button></a>
+                <a href="#cuadrado-a"><button>Área</button></a>
+            </div>
+        </div>
+    </div>
+    <div id="triangulo-p" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="modal-form">
+                <h2>Perímetro de triángulo</h2>
+                <input type="number" class="lado1 input-form" placeholder="Ingrese el valor del lado 1">
+                <input type="number" class="lado2 input-form" placeholder="Ingrese el valor del lado 2">
+                <input type="number" class="lado3 input-form" placeholder="Ingrese el valor del lado 3">
+                <button class="btn triangulo-p">Calcular</button>
+                <p class="resultado-t-p"></p>
+            </div>
+        </div>
+    </div>
+    <div id="triangulo-a" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="modal-form">
+                <h2>Área de triángulo</h2>
+                <input type="number" class="base input-form" placeholder="Ingrese el valor de la base">
+                <input type="number" class="altura input-form" placeholder="Ingrese el valor de la altura">
+                <button class="btn triangulo-a">Calcular</button>
+                <p class="resultado-t-a"></p>
+            </div>
+        </div>
+    </div>
+    <div id="circulo-p" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="modal-form">
+                <h2>Perímetro de círculo</h2>
+                <input type="number" class="radio input-form" placeholder="Ingrese el valor del radio">
+                <button class="btn circulo-p">Calcular</button>
+                <p class="resultado-ci-p"></p>
+            </div>
+        </div>
+    </div>
+    <div id="circulo-a" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="modal-form">
+                <h2>Área de círculo</h2>
+                <input type="number" class="radio-a input-form" placeholder="Ingrese el valor del radio">                
+                <button class="btn circulo-a">Calcular</button>
+                <p class="resultado-ci-a"></p>
+            </div>
+        </div>
+    </div>
+    <div id="rectangulo-p" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="modal-form">
+                <h2>Perímetro de rectangulo</h2>
+                <input type="number" class="lado1-r input-form" placeholder="Ingrese el valor del lado 1">
+                <input type="number" class="lado2-r input-form" placeholder="Ingrese el valor del lado 2">
+                <input type="number" class="lado3-r input-form" placeholder="Ingrese el valor del lado 3">
+                <input type="number" class="lado4-r input-form" placeholder="Ingrese el valor del lado 4">
+                <button class="btn rectangulo-p">Calcular</button>
+                <p class="resultado-r-p"></p>
+            </div>
+        </div>
+    </div>
+    <div id="rectangulo-a" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="modal-form">
+                <h2>Área de rectangulo</h2>
+                <input type="number" class="base-r input-form" placeholder="Ingrese el valor de la base">                
+                <input type="number" class="altura-r input-form" placeholder="Ingrese el valor de la altura">                
+                <button class="btn rectangulo-a">Calcular</button>
+                <p class="resultado-r-a"></p>
+            </div>
+        </div>
+    </div>
+    <div id="cuadrado-p" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="modal-form">
+                <h2>Perímetro de cuadrado</h2>
+                <input type="number" class="lado-c input-form" placeholder="Ingrese el valor del lado">
+                <button class="btn cuadrado-p">Calcular</button>
+                <p class="resultado-c-p"></p>
+            </div>
+        </div>
+    </div>
+    <div id="cuadrado-a" class="modalmask">
+        <div class="modalbox movedown">
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="modal-form">
+                <h2>Área de cuadrado</h2>
+                <input type="number" class="lado-c-a input-form" placeholder="Ingrese el valor del lado">                
+                <button class="btn cuadrado-a">Calcular</button>
+                <p class="resultado-c-a"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Miguel Angel Wilchez Carvajal | 2465880</p>
+        <p>&copy Todo los derechos reservados</p>
+    </footer>
+    <script src="../assets/js/ejercicio5.js"></script>
+</body>
+</html>
