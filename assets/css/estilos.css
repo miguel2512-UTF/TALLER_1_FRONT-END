@@ -360,6 +360,30 @@ body{
     text-decoration: none;
 }
 
+.ejercicio-form-validate{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    width: 500px;
+}
+
+.ejercicio-form-validate div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-input{
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem 0rem;
+}
+
 .success{
     border: 1px solid green;
 }
@@ -368,12 +392,18 @@ body{
     border: 1px solid red;
 }
 
+.error__message{
+    font-size: 12px;
+    display: none;
+}
+
 .form-no-enviado{
     visibility: hidden;
 }
 
 .activo{
     visibility: visible;
+    display: contents;
 }
 
 footer{
