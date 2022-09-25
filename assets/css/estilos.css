@@ -24,6 +24,8 @@ body{
     justify-content: space-between;
     background-color: rgb(31, 31, 31);
     height: 100px;
+    font-family: Roboto;
+    font-size: 14px;
 }
 
 .navbar img{
@@ -84,13 +86,13 @@ body{
 
 .card-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     row-gap: 2rem;
 }
 
 .card{
     margin: auto;
-    width: 300px;
+    width: 225px;
     padding: 0.5rem;
     border-radius: 2px;
     box-shadow: 1px 1px 2px 1px rgb(195 193 192);
